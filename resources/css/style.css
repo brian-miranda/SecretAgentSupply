@@ -1,3 +1,5 @@
+/*Final version, handle with care.*/
+
 /*General site rules------------------------------------------------*/
 
 html {
@@ -181,5 +183,61 @@ footer {
 }
 
 @media only screen and (max-width:470px) {
-  
+  .content {
+    width: 470px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .banner {
+    height: 16.2rem;
+  }
+
+  .blackbox {
+    top: 10rem;
+    font-size: 0.77rem;
+    width: 77%;
+  }
+
+  .blackbox h1 {
+    font-size: 1rem;
+  }
+
+  .product {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .box {
+    width: 90%;
+    margin: 0.5rem 5%;
+  }
+
+  p.title {
+    background-color: black;
+    padding: 1rem 2rem;
+  }
+
+  p.info {
+    color: black;
+    padding: 0.5rem 0;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
