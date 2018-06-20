@@ -108,9 +108,37 @@ nav a {
   padding: 0.5rem 0;
 }
 
+.glasses img {
+  width: 100%;
+}
+
+/*Contact rules------------------------------------------------*/
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.box {
+  width: 35%;
+}
+
+p.title {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+p.info {
+  color: black;
+  padding: 0.5rem 0;
+}
+
 /*Footer rules------------------------------------------------*/
 
 footer {
-  height: 5rem;
+  height: 10rem;
   background-color: black;
+  display: flex;
+  align-items: center;
 }
