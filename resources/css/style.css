@@ -152,6 +152,12 @@ footer {
 /*Media query stuff------------------------------------------------*/
 
 @media only screen and (max-width:1024px) {
+  .content {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .blackbox {
     font-size: 1rem;
   }
@@ -184,9 +190,10 @@ footer {
 
 @media only screen and (max-width:470px) {
   .content {
-    width: 470px;
+    width: auto;
     margin-left: 0;
     margin-right: 0;
+    padding: auto;
   }
 
   .banner {
