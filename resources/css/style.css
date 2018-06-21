@@ -201,9 +201,10 @@ footer {
   }
 
   .blackbox {
-    top: 10rem;
+    /*top: 10rem;*/
+    bottom: 0;
     font-size: 0.77rem;
-    width: 77%;
+    width: auto;
   }
 
   .blackbox h1 {
